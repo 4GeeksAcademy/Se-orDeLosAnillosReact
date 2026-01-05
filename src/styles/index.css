@@ -1,11 +1,25 @@
-/* 
+* {
+    font-family: "Bilbo", cursive;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
 
-*/
+body {
+    background-image: url(https://img1.wallspic.com/crops/9/8/5/8/7/178589/178589-el_seor_de_los_anillos-galadriel-una_sombra_del_pasado-amazon_prime_video-estudios_mgm_amazon-1920x1080.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+

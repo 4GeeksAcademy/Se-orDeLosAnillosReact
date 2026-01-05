@@ -1,0 +1,52 @@
+.input-character {
+    font-size: 22px;
+    padding-left: 15px;
+    font-family: "Tagesschrift", system-ui;
+    border-radius: 12px;
+    border: none;
+    width: 50%;
+}
+
+input::placeholder {
+    color: #333;
+    opacity: 1;
+}
+
+
+
+.btn-creado {
+    font-family: "Bilbo", cursive;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 22px;
+    letter-spacing: 2px;
+    background: linear-gradient(135deg, #8a6d3b 0%, #f1d38e 50%, #8a6d3b 100%);
+    color: #2a1a0a;
+    padding: 12px 30px;
+    border: 2px solid #5d4037;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(255, 255, 255, 0.3);
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-creado:hover {
+    color: #000;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #f1d38e;
+    border-color: #f1d38e;
+}
+
+.btn-creado::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 252, 224, 0.1);
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
